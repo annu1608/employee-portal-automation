@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<listeners>
+    <listener class-name="testComponents.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="RegressionTest">
+    <classes>
+      <class name="Tests.ChangePassword_Validation"/>
+      <class name="Tests.Dashboard_Validation"/>
+      <class name="Tests.Logout_Validation"/>
+      <class name="Tests.Login_Validation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

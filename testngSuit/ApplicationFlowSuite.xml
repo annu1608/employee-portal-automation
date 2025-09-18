@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+
+<listeners>
+    <listener class-name="testComponents.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="ApplicationFlow">
+    <classes>
+      <class name="Tests.EmployeeTrackerFlow_Validation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
