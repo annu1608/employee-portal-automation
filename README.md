@@ -10,7 +10,7 @@ The main objective of this project is to efficiently test employee-related tasks
 - Change Password functionality with toast message validation and Password Strength Validation 
 - Logout flow automation
 - Test case reports generation with detailed results
-- 
+  
 
 ### 💻 Technology Stack
 - **Programming Language:** Java
